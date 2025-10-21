@@ -5,7 +5,7 @@
 
 **Live site:** https://incicik.github.io/cyclistic-capstone/  
 **Executive summary:** [docs/executive_summary.md](docs/executive_summary.md)  
-**Analysis notebook (HTML):** [docs/01_prepare_process_analyze.html](docs/01_prepare_process_analyze.html)  
+**Analysis notebook (HTML):** [docs/01_prepare_process_analyze_clean.html](docs/01_prepare_process_analyze_clean.html)
 **Recommendations & A/B plan:** [docs/recommendations_and_experiment.md](docs/recommendations_and_experiment.md)
 
 ## Deliverables Checklist (print this and tick ✓)
