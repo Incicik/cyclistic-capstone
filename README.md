@@ -1,6 +1,12 @@
 # Cyclistic Bike-Share Capstone — Fast Track
+**Target windows:** Weekends 11:00–16:00; Weekdays 16:00–18:00  
+**Traffic:** ~235 eligible exposures/day (≈120 weekday, ≈518 weekend)  
+**Power:** n≈9,799 per arm → ~84 days at current scope
 
-(Explanation: This repo is a minimal, ready-to-run scaffold to finish the Cyclistic case quickly while still hitting hiring signals.)
+**Live site:** https://incicik.github.io/cyclistic-capstone/  
+**Executive summary:** [docs/executive_summary.md](docs/executive_summary.md)  
+**Analysis notebook (HTML):** [docs/01_prepare_process_analyze.html](docs/01_prepare_process_analyze.html)  
+**Recommendations & A/B plan:** [docs/recommendations_and_experiment.md](docs/recommendations_and_experiment.md)
 
 ## Deliverables Checklist (print this and tick ✓)
 - [ ] `notebooks/01_prepare_process_analyze.ipynb` runs end-to-end
@@ -11,7 +17,10 @@
 - [ ] Portfolio page (Quarto/Markdown/Medium/Notion) published with links to notebook and figures
 
 ## Data
-(Explanation: Use the official Divvy/Cyclistic monthly CSVs; place the 12 CSVs into `data/raw/`.)
+- Source: Divvy/Cyclistic monthly trip data (public release).
+- Setup: place **12 monthly CSVs** into `data/raw/` (not tracked by Git).
+- Output: the notebook builds a cleaned dataset → `data/processed/cyclistic_clean.parquet`.
+
 
 ## How to run
 ```bash
@@ -19,7 +28,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab  # or jupyter notebook
 ```
-Open `notebooks/01_prepare_process_analyze.ipynb` and run all cells. (Explanation: The notebook includes clear markers for each phase: Prepare → Process → Analyze → Share → Act.)
+Open `notebooks/01_prepare_process_analyze.ipynb` and run all cells.
 
 ## Figures to produce (target 6)
 1. (Decision) **Who rides when?** — median ride duration by weekday × member type
@@ -29,9 +38,9 @@ Open `notebooks/01_prepare_process_analyze.ipynb` and run all cells. (Explanatio
 5. (Decision) **Conversion funnel** — casual share by weekday/weekend and by hour
 6. (Decision) **Offer sizing** — potential reach if we target top casual hotspots
 
-(Explanation: Each figure title is phrased as a stakeholder question/decision to make the story obvious.)
 
 ## Output files
 - `data/processed/cyclistic_clean.parquet` (clean dataset with engineered features)
 - `data/processed/summary_tables.xlsx` (key summary tabs for quick reference)
 - `figures/*.png` (exported visuals, ready for portfolio page)
+  
