@@ -1,0 +1,4 @@
+data/raw/
+*.parquet
+*.ipynb_checkpoints/
+.DS_Store
