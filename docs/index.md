@@ -8,8 +8,8 @@
 - 📊 [Analysis notebook (HTML)](./01_prepare_process_analyze_clean.html)
 
 **Figures**
-- [fig1_median_duration_weekday.png](./figures/fig1_median_duration_weekday.png) — Median duration by weekday × member type
-- [fig2_rides_per_month.png](./figures/fig2_rides_per_month.png) — Rides per month by member vs casual
-- [fig3_top_casual_hotspots.png](./figures/fig3_top_casual_hotspots.png) — Top 15 casual start stations
-- [fig4_device_mix.png](./figures/fig4_device_mix.png) — Rideable type mix × member type
-- [fig5_casual_share_by_hour.png](./figures/fig5_casual_share_by_hour.png) — Casual share by hour, weekend vs weekday
+- [fig1_median_duration_weekday.png — Median duration by weekday × member type](./figures/fig1_median_duration_weekday.png)
+- [fig2_rides_per_month.png — Rides per month by member vs casual](./figures/fig2_rides_per_month.png)
+- [fig3_top_casual_hotspots.png — Top 15 casual start stations](./figures/fig3_top_casual_hotspots.png)
+- [fig4_device_mix.png — Rideable type mix × member type](./figures/fig4_device_mix.png)
+- [fig5_casual_share_by_hour.png — Casual share by hour, weekend vs weekday](./figures/fig5_casual_share_by_hour.png)
