@@ -2,7 +2,7 @@ title: cyclistic-capstone
 description: "Convert casual riders to annual members — EDA + targeting + power-calculated A/B plan."
 theme: minima
 header_pages:
+  - index.md
   - executive_summary.md
   - recommendations_and_experiment.md
   - portfolio.md
-  - index.md
