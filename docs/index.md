@@ -1,7 +1,3 @@
----
-title: Cyclistic Capstone
-layout: plain
----
 
 # Cyclistic Capstone
 *Converting casual riders to members with targeted offers and an A/B plan.*
