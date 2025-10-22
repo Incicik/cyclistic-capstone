@@ -1,4 +1,11 @@
+# Python / env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data (don’t track raw CSVs or Excel artifacts)
 data/raw/
-*.parquet
-*.ipynb_checkpoints/
+data/processed/*.xlsx
+
+# OS/editor noise
 .DS_Store
