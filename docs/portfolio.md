@@ -3,21 +3,20 @@ title: Portfolio — Cyclistic Capstone
 layout: plain
 ---
 
-**Role:** Data Analyst (end-to-end)  
-**Business task:** Convert more casual riders to annual members.
+## Artifacts
+- **Notebook (HTML):** [01_prepare_process_analyze_clean.html](./01_prepare_process_analyze_clean.html)  
+- **Executive summary:** [executive_summary](./executive_summary)  
+- **Recommendations & A/B plan:** [recommendations_and_experiment](./recommendations_and_experiment)  
+- **Figures:**  
+  - [Median duration by weekday × member type](./figures/fig1_median_duration_weekday.png)  
+  - [Rides per month by member vs casual](./figures/fig2_rides_per_month.png)  
+  - [Top 15 casual start stations](./figures/fig3_top_casual_hotspots.png)  
+  - [Rideable type mix × member type](./figures/fig4_device_mix.png)  
+  - [Casual share by hour, weekend vs weekday](./figures/fig5_casual_share_by_hour.png)
 
-**What I did**
-- Cleaned & joined 12 months of Divvy/Cyclistic trip data; engineered features.
-- Built decision-oriented visuals (who rides when, seasonality, hotspots, device mix).
-- Sized the opportunity and designed a station-hour A/B test with power analysis.
-- Produced exec summary and experiment plan for stakeholders.
+## Role & tools
+- Role: Data Analyst (solo)  
+- Tools: Python, pandas, matplotlib, Jupyter, GitHub Pages
 
-**Links**
-- 📄 [Executive summary](./executive_summary.md)
-- 🧪 [Recommendations & A/B plan](./recommendations_and_experiment.md)
-- 📊 [Analysis notebook (HTML)](./01_prepare_process_analyze_clean.html)
-- 🖼️ [Figures](./index.md#figures)
-
-**Next steps**
-- Expand targeted windows to shoulder seasons; test creative by device type.
-- Add a simple dashboard to track conversion, CTR, and guardrails in near-real-time.
+## Outcome
+Targeted windows selected from observed behavior; power-calculated A/B plan prepared for rollout.
