@@ -9,3 +9,4 @@ data/processed/*.xlsx
 
 # OS/editor noise
 .DS_Store
+data/processed/*.parquet
