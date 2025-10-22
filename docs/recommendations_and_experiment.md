@@ -1,4 +1,7 @@
-# Recommendations & Experiment Plan
+---
+title: Recommendations & Experiment Plan
+layout: plain
+---
 
 ## 🎯 Targeting (Where & When)
 - **Stations:** Top 10 casual hotspots led by **DuSable Lake Shore Dr & Monroe St** (see Fig. 3 / Appendix).  

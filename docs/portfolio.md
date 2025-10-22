@@ -1,4 +1,7 @@
-# Portfolio — Cyclistic Capstone
+---
+title: Portfolio — Cyclistic Capstone
+layout: plain
+---
 
 **Role:** Data Analyst (end-to-end)  
 **Business task:** Convert more casual riders to annual members.

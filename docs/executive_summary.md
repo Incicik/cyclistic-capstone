@@ -1,4 +1,7 @@
-# Executive Summary — Cyclistic
+---
+title: Executive Summary — Cyclistic
+layout: plain
+---
 
 **Business Task:** Convert more casual riders to annual members.
 
