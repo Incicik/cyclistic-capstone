@@ -14,5 +14,5 @@ This project analyzes 12 months of Cyclistic bike-share trip data to convert cas
 - Designed a power-calculated A/B experiment for membership conversion.
 
 **Author:** _I. S._  
-**License:** MIT (or your choice)
+**License:** MIT
   
