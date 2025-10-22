@@ -1,3 +1,7 @@
+printf '%s\n%s\n%s\n\n' \
+'---' \
+'title: Cyclistic Capstone' \
+'layout: plain' | cat - docs/index.md > docs/.index.tmp && mv docs/.index.tmp docs/index.md 
 ---
 title: Cyclistic Capstone
 layout: page
