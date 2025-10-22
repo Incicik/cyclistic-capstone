@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share — Portfolio Case Study
 
-(Explanation: This page is what you'll publish. It embeds the six figures and tells the story in the Ask→Prepare→Process→Analyze→Share→Act flow.)
+
 
 ## Ask — Business Task
 Convert more **casual riders → annual members** to improve predictable revenue.
@@ -15,10 +15,10 @@ Convert more **casual riders → annual members** to improve predictable revenue
 ![Rideable type distribution × member type](../figures/fig4_device_mix.png)
 ![Casual share by hour (weekend vs weekday)](../figures/fig5_casual_share_by_hour.png)
 
-(Explanation: Ensure the notebook has been run to generate the images in `figures/`.)
+
 
 ## Share — Executive Summary (paste your auto-generated draft here)
-> (Explanation: After running the notebook, copy the auto-generated summary text and paste it below.)
+>
 
 ## Act — Recommendations & Experiment Plan
 - Weekend Day Pass → Annual Offer at top hotspots.

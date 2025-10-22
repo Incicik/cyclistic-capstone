@@ -1,24 +1,26 @@
 # Recommendations & Experiment Plan
+
 ## Targeting (where & when)
-(Explanation: Focus where casual density is highest.)
-• Stations: Top 10 casual hotspots led by **DuSable Lake Shore Dr & Monroe St** (see Fig.3 / Appendix).  
-• Hours: Weekends **11:00–16:00**; Weekdays **16:00–18:00**.  
-• Devices: Tailor creative by rideable-type mix (Fig.4) so prompts feel native to the trip context.
+- **Stations:** Top 10 casual hotspots led by **DuSable Lake Shore Dr & Monroe St** (see Fig.3 / Appendix).
+- **Hours:** Weekends **11:00–16:00**; Weekdays **16:00–18:00**.
+- **Eligibility:** Casual riders starting at targeted stations within the above windows.
 
-(Explanation: Concrete A/B plan with success + guardrail metrics.)
+## Treatment & Control
+- **Unit of analysis:** *station-hour* (clean randomization; easy to operationalize).
+- **Randomization:** Per **station-hour**, 50% **Treatment** (offer shown) / 50% **Control** (status quo).
+- **Stratification:** Randomize **within weekend/weekday** (and optionally by station) to balance volume.
+- **Treatment content:** “Weekend Day Pass → Annual upgrade credit” (CTA in app / on-dock).
+- **Global holdout (optional):** 5–10% to check incremental lift bias.
 
-## Recommendations
-1) Weekend Day Pass → Annual Offer at top 10 casual hotspots
-2) Summer Weekly Pass with 14‑day upgrade credit
-3) On-dock prompts during weekend afternoons (12:00–18:00)
+## Success & Guardrails
+- **Primary:** **Casual → Annual conversion within 30 days** of exposure.
+- **Secondary:** Offer CTR, time-to-conversion, revenue per exposed rider.
+- **Guardrails:** Member churn (no increase vs control), bike availability SLA (no degradation).
 
-## A/B Test Design
-- Unit: station-hour (or station-day)
-- Treatment: targeted offer (control: status quo)
-- Primary metric: casual→annual conversion within 30 days
-- Guardrails: member churn (no increase), ride availability
-- Duration: compute via sample-size cell in notebook
-- Analysis: difference in proportions (CIs)
-
-## Rollout Plan
-Phase 1: 10 hotspots × 4 weeks; Phase 2: 30 stations if lift ≥ X%.
+## Duration & Sample Size
+- **Traffic assumptions:** ~**235** eligible rider sessions/day across targeted station-hours  
+  (≈ **120** weekday; ≈ **518** weekend).
+- **Minimum detectable effect (MDE):** **+30%** relative lift vs baseline conversion.
+- **Duration:** Run **~84 days (~12 weeks)** to reach power at current scope.
+- **Powering note:** With ~235 eligible exposures/day total, we need **n≈9,799 per arm** (α=0.05, power=0.80, MDE=+30%).
+  *To hit a 4–6 week timeline, expand scope (more hotspots/hours) and recompute traffic + power.*
