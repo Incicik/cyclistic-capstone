@@ -5,6 +5,7 @@
 
 - 📄 [Executive summary](./executive_summary.md)
 - 🧪 [Recommendations & A/B plan](./recommendations_and_experiment.md)
+- 📁 [Portfolio](./portfolio.md)
 - 📊 [Analysis notebook (HTML)](./01_prepare_process_analyze_clean.html)
 
 **Figures**
